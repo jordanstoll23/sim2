@@ -5,3 +5,42 @@
   display: flex;
   justify-content: center;
 }
+
+.navheader {
+  background: #519872;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navheader div {
+  width: 900px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navheader img {
+  margin-left: 20px;
+}
+
+.navheader h1 {
+  margin-left: 20px;
+  color:white;
+}
+
+.navheader h2 {
+  margin-left: 12px;
+  color:white;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.navheader h3 {
+  width: 100%;
+  text-align: right;
+  margin-left: 100px;
+  color: white;
+  font-size: 14px;
+}
