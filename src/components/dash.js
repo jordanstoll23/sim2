@@ -13,9 +13,26 @@ class HomePage extends Component {
                 </Link>
                 <h1>Houser</h1>
                 <h2>Dashboard</h2>
+                <Link to='/' className="Link">
                 <h3>Logout</h3>
+                </Link>
               </div>
             </div>
+            <div className="dashboard">
+          <button className="addPropertyBtn"> Add new property </button>
+          <div>
+            List properties with "desired rent" greater than: $<input type="text" name="filterInput" />
+            <button className="filterBtn">filter</button>
+            <button className="resetBtn">reset</button>
+          </div>
+
+
+          <div className="listingsContainer">
+            <img src="https://cdn.houseplans.com/product/o2d2ui14afb1sov3cnslpummre/w1024.jpg?v=15" height="100px" width="150px"/>
+            <h3>Description</h3>
+            <h3>Details</h3>
+          </div>
+        </div>
           </div>
         );
     }

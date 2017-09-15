@@ -1,11 +1,3 @@
-.banner {
-  background: #ab2a19;
-  height: 80px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
 .navheader {
   background: #519872;
   height: 80px;
@@ -40,7 +32,60 @@
 .navheader h3 {
   width: 100%;
   text-align: right;
-  margin-left: 100px;
+  margin-left: 225px;
   color: white;
   font-size: 14px;
+}
+
+.dashboard {
+  background: #8aea92;
+  height: 100vh;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.addPropertyBtn {
+  margin: 15px;
+
+}
+
+.dashboard h1 {
+  font-weight: lighter;
+}
+
+.dashboard input {
+  width: 50px;
+}
+
+.listingsContainer img {
+  align-content: left;
+  display: flex;
+}
+
+.listingsContainer {
+  background: lightgray;
+  display: flex;
+  height: 100px;
+  margin: 20px;
+}
+
+.listingsContainer h3{
+  margin: 0;
+  width: 400px;
+  text-align: left;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.filterBtn {
+  margin: 5px;
+}
+.Link {
+  text-decoration: none;
+  /* width: 80%;
+  text-align: right;
+  margin-left: 50px;
+  color: white;
+  font-size: 88px; */
 }
