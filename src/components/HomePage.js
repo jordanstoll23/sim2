@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 // import Shelf from './Shelf';
 import logo from '../assets/header_logo.png';
+import dash from './dash';
+import { Link } from 'react-router-dom';
 
 class HomePage extends Component {
     render() {
@@ -21,8 +23,12 @@ class HomePage extends Component {
           <input className="Auth_input dark_green_border" value="" type="password"onChange />
         </div>
         <div>
-          <button className="Auth_button_login lightest_green_bgc open-sans-border"></button>
-          <button className="Auth_button_login lightest_green_bgc open-sans-border" ></button>
+        <Link to='/dash' className="nav-home-button">
+          <button  className=""> Login </button>
+          </Link>
+          <Link to='/dash' className="nav-home-button">
+          <button className="" > Register </button>
+          </Link>
         </div>
     </div>
             
