@@ -19,7 +19,9 @@ class HomePage extends Component {
               </div>
             </div>
             <div className="dashboard">
+              <Link to='/wizard'>
           <button className="addPropertyBtn"> Add new property </button>
+          </Link>
           <div>
             List properties with "desired rent" greater than: $<input type="text" name="filterInput" />
             <button className="filterBtn">filter</button>

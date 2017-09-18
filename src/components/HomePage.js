@@ -6,32 +6,38 @@ import { Link } from 'react-router-dom';
 import bigLogo from './../assets/auth_logo.png';
 
 class HomePage extends Component {
-    render() {
+  render() {
         return (
 
 
 
       
-      <div>
-        <div className="RightSidebar">RightSidebar</div>
+          <div>
+        <div className="RightSidebar"></div>
           
-        <div className="AuthBox">
+       <div className="AuthBox">
+          <div className="AuthBoxInner">
         <img src={bigLogo} alt="BigLogo"/>
-          <div className="Logo">Logo</div>            
-          
-          <span className="Username">Username</span>
-          <input className="Auth_input dark_green_border" value=""  />
+          <div className="Logo"></div>            
+         
+         <span className="Username">Username</span>
+          <br/>
+          <input className="Auth_input dark_green_border" />
+          <br/>
           <span className="Password">Password</span>
-          <input className="Auth_input dark_green_border" value="" type="password"onChange />
+          <br/>
+          <input className="Auth_input dark_green_border"  type="password" />
           <br/>
         <Link to='/dash' className="nav-home-button">
           <button  className="Login"> Login </button>
           </Link>
-          <Link to='/dash' className="nav-home-button">
+          
+         <Link to='/dash' className="nav-home-button">
           <button className="Register" > Register </button>
           </Link>
         </div>
-        <div className="LeftSidebar">LeftSidebar </div>
+        </div>
+        <div className="LeftSidebar"> </div>
     </div>
             
           

@@ -16,6 +16,7 @@ class Wizard extends Component {
                 <h3>Logout</h3>
               </div>
             </div>
+            <div className='harry'>YOUR A WIZARD HARRY</div>
           </div>
         );
     }

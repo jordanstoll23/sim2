@@ -3,39 +3,50 @@
 
 .RightSidebar{
   background: #afd4c0;
+  background: #afd4c0 ;
   height: 100vh;
-  width: 33vw;
-  
-  display: inline-block;
+  width: 20vw;
+  float: left;
 }
 .AuthBox{
-  background: #f6f0f0;
+  background: #f6f0f0 ;
   height: 100vh;
-  width: 33vw;
-  
-  display: inline-block;
+  width: 58.5vw;
+  float: left;
 }
 .LeftSidebar{
-  background: #afd4c0;
+  background: #afd4c0 ;
   height: 100vh;
-  width: 33vw;
-  display: inline-block;
+  width: 20vw;
+  float: left;
+}
+.AuthBoxInner{
+  margin-top: 30vh;
+  background: #f6f0f0 ;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .BigLogo{
-  background: #f6f0f0;
+  align-items: center;
+  text-align: center;
+}
+.Password{
+  align-items: left;
+  text-align: left;
+
 }
 
 .banner {
-  background: #ab2a19;
+  background: #ab2a19 ;
   height: 80px;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
->>>>>>> dfbaa2f7f9dcd55968a79673ca1630f92c504977
 .navheader {
-  background: #519872;
+  background: #519872 ;
   height: 80px;
   width: 100%;
   display: flex;
@@ -72,7 +83,6 @@
   color: white;
   font-size: 14px;
 }
-
 .dashboard {
   background: #8aea92;
   height: 100vh;
@@ -124,4 +134,7 @@
   margin-left: 50px;
   color: white;
   font-size: 88px; */
+}
+.harry {
+  text-align: center;
 }
